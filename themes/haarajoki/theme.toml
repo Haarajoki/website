@@ -1,0 +1,6 @@
+name = 'Haarajoki'
+license = 'MIT'
+description = 'Teema Haarajoen asukasyhdistyksen verkkosivuille'
+
+[author]
+  name = 'Haarajoen asukasyhdistys ry'

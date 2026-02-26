@@ -1,0 +1,25 @@
+baseURL = 'https://haarajoki.fi/'
+languageCode = 'fi'
+defaultContentLanguage = 'fi'
+title = 'Haarajoen asukasyhdistys ry'
+theme = 'haarajoki'
+
+[params]
+  description = 'Haarajoen asukasyhdistys ry:n kotisivut'
+  address = 'Haarajoki, Järvenpää'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menus.main]]
+  name = 'Ajankohtaista'
+  pageRef = '/ajankohtaista'
+  weight = 10
+
+[outputs]
+  home = ['HTML']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']

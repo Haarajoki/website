@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+</section>
+
+<div class="home-content">
+  {{ .Content }}
+</div>
+
+{{ $posts := where site.RegularPages "Section" "ajankohtaista" }}
+{{ if $posts }}
+<section class="news-section">
+  <h2>Ajankohtaista</h2>
+  <div class="news-list">
+    {{ range first 5 $posts }}
+    <article class="news-item">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006" }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </article>
+    {{ end }}
+  </div>
+  {{ if gt (len $posts) 5 }}
+  <a href="{{ "ajankohtaista/" | absURL }}" class="read-more">Kaikki uutiset &rarr;</a>
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}
