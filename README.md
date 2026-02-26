@@ -2,13 +2,13 @@
 
 Haarajoen asukasyhdistyksen staattinen verkkosivusto. Rakennettu [Hugo](https://gohugo.io/)-sivugeneraattorilla, sisällönhallinta [Decap CMS](https://decapcms.org/):llä ja julkaisu [GitHub Pages](https://pages.github.com/) -palvelussa.
 
-**Tuotantosivusto:** https://haarajoki.fi
+**Tuotantosivusto:** https://haarajoki.com
 
 ## Miten sivusto toimii
 
 Sivusto on täysin staattinen – se koostuu pelkästä HTML:stä, CSS:stä ja pienestä määrästä JavaScriptiä. Taustajärjestelmää (backend) ei ole.
 
-Sisällöntuottajat muokkaavat sivustoa Decap CMS -käyttöliittymässä osoitteessa `haarajoki.fi/admin`. CMS tallentaa muutokset Markdown-tiedostoina suoraan tähän Git-repositorioon. Jokainen tallennus luo automaattisesti Git-commitin, joka käynnistää GitHub Actions -työnkulun: Hugo kääntää Markdown-tiedostot staattiseksi HTML:ksi ja julkaisee sivuston GitHub Pagesiin.
+Sisällöntuottajat muokkaavat sivustoa Decap CMS -käyttöliittymässä osoitteessa `haarajoki.com/admin`. CMS tallentaa muutokset Markdown-tiedostoina suoraan tähän Git-repositorioon. Jokainen tallennus luo automaattisesti Git-commitin, joka käynnistää GitHub Actions -työnkulun: Hugo kääntää Markdown-tiedostot staattiseksi HTML:ksi ja julkaisee sivuston GitHub Pagesiin.
 
 ```
 Sisällönmuokkaus (Decap CMS)
@@ -17,7 +17,7 @@ Git commit → GitHub
         ↓
 GitHub Actions: hugo --minify
         ↓
-GitHub Pages (haarajoki.fi)
+GitHub Pages (haarajoki.com)
 ```
 
 ## Paikallinen kehitys
@@ -69,7 +69,7 @@ hugo --minify     # Tuotantokäännös (minifoitu)
 
 ## Sisällönhallinta (CMS)
 
-Decap CMS on käytettävissä osoitteessa `haarajoki.fi/admin`. Kirjautuminen tapahtuu GitHub-tunnuksilla.
+Decap CMS on käytettävissä osoitteessa `haarajoki.com/admin`. Kirjautuminen tapahtuu GitHub-tunnuksilla.
 
 CMS:stä voi muokata:
 
@@ -92,4 +92,4 @@ Manuaalista julkaisua ei tarvita.
 
 ### Mukautettu verkkotunnus
 
-GitHub Pages -asetuksissa on konfiguroitu verkkotunnus `haarajoki.fi`. DNS-asetukset osoittavat GitHubin palvelimille.
+GitHub Pages -asetuksissa on konfiguroitu verkkotunnus `haarajoki.com`. DNS-asetukset osoittavat GitHubin palvelimille.
