@@ -1,28 +1,48 @@
 {{ define "main" }}
 <section class="hero">
-  <h1>{{ .Title }}</h1>
-  {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  {{/* Decorative background lines suggesting flowing water */}}
+  <svg class="hero-lines" viewBox="0 0 1200 500" preserveAspectRatio="none" fill="none" aria-hidden="true">
+    <path d="M-100 380 Q200 320 500 360 Q800 400 1300 330" stroke="rgba(193,127,42,0.08)" stroke-width="1.5"/>
+    <path d="M-100 310 Q250 260 550 290 Q850 320 1300 260" stroke="rgba(240,235,225,0.04)" stroke-width="1.5"/>
+    <path d="M-100 440 Q300 390 600 420 Q900 450 1300 395" stroke="rgba(240,235,225,0.03)" stroke-width="1"/>
+    <path d="M-100 250 Q200 210 450 235 Q750 265 1300 210" stroke="rgba(193,127,42,0.05)" stroke-width="1"/>
+    <path d="M-100 170 Q350 140 600 165 Q900 195 1300 145" stroke="rgba(240,235,225,0.025)" stroke-width="1"/>
+  </svg>
+  <div class="hero-accent"></div>
+  <div class="hero-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 54" preserveAspectRatio="none" fill="none" aria-hidden="true">
+    <path d="M0 54 L0 22 Q240 0 480 18 Q720 38 960 14 Q1200 -4 1440 20 L1440 54 Z" fill="currentColor"/>
+  </svg>
 </section>
 
-<div class="home-content">
-  {{ .Content }}
-</div>
+{{ if .Content }}
+<section class="home-intro container">
+  <div class="intro-text reveal">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
 
 {{ $posts := where site.RegularPages "Section" "ajankohtaista" }}
 {{ if $posts }}
-<section class="news-section">
-  <h2>Ajankohtaista</h2>
-  <div class="news-list">
+<section class="container" style="padding-bottom: 4rem;">
+  <h2 class="section-heading reveal">Ajankohtaista</h2>
+  <div class="news-grid reveal-stagger">
     {{ range first 5 $posts }}
-    <article class="news-item">
+    <a href="{{ .RelPermalink }}" class="news-card reveal">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006" }}</time>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <h3>{{ .Title }}</h3>
       {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-    </article>
+    </a>
     {{ end }}
   </div>
   {{ if gt (len $posts) 5 }}
-  <a href="{{ "ajankohtaista/" | absURL }}" class="read-more">Kaikki uutiset &rarr;</a>
+  <div class="news-footer reveal">
+    <a href="{{ "ajankohtaista/" | absURL }}" class="btn-outline">Kaikki uutiset &rarr;</a>
+  </div>
   {{ end }}
 </section>
 {{ end }}
