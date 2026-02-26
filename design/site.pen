@@ -1,0 +1,2954 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "7ISKo",
+      "x": -592.2397691500523,
+      "y": 301.5,
+      "name": "Desktop — Haarajoki Frontpage",
+      "width": 1440,
+      "fill": "#F5F4F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6NcDN",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gguBu",
+              "name": "Logo Area",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "3nlaD",
+                  "name": "logoIcon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "trees",
+                  "iconFontFamily": "lucide",
+                  "fill": "#3D8A5A"
+                },
+                {
+                  "type": "text",
+                  "id": "gwC9G",
+                  "name": "logoText",
+                  "fill": "#1A1918",
+                  "content": "Haarajoki",
+                  "fontFamily": "Outfit",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DApAa",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HIPpD",
+                  "name": "nav1",
+                  "fill": "#6D6C6A",
+                  "content": "Ajankohtaista",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "H3tXG",
+                  "name": "nav2",
+                  "fill": "#6D6C6A",
+                  "content": "Yhdistys",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "03IOm",
+                  "name": "nav3",
+                  "fill": "#6D6C6A",
+                  "content": "Werso",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ZA2gw",
+                  "name": "nav4",
+                  "fill": "#6D6C6A",
+                  "content": "Luonto",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Ro6tA",
+                  "name": "nav5",
+                  "fill": "#6D6C6A",
+                  "content": "Palvelut",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "rXenq",
+                  "name": "nav6",
+                  "fill": "#6D6C6A",
+                  "content": "Yhteystiedot",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dMjb6",
+              "name": "Join CTA",
+              "fill": "#3D8A5A",
+              "cornerRadius": 100,
+              "gap": 8,
+              "padding": [
+                10,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "rLkVK",
+                  "name": "ctaIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "xKzpI",
+                  "name": "ctaText",
+                  "fill": "#FFFFFF",
+                  "content": "Liity jäseneksi",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "utTfi",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 560,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "oXGPm",
+              "x": 0,
+              "y": 0,
+              "name": "Hero BG",
+              "metadata": {
+                "type": "unsplash",
+                "username": "schneiderhenry",
+                "link": "https://unsplash.com/@schneiderhenry",
+                "author": "Henry Schneider"
+              },
+              "width": 1440,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1698347133257-32ce0681a2cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMTEyNzd8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "oon3v",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Overlay",
+              "width": 1440,
+              "height": 560,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1A1918CC",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1A191866",
+                    "position": 0.6
+                  },
+                  {
+                    "color": "#1A191822",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "0oRcd",
+              "x": 80,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 700,
+              "height": 560,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                100,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hKtd9",
+                  "name": "Badge",
+                  "fill": "#3D8A5A44",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "wNgaw",
+                      "name": "badgeIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "map-pin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#C8F0D8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OYtoe",
+                      "name": "badgeText",
+                      "fill": "#C8F0D8",
+                      "content": "Järvenpää, Suomi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "237JP",
+                  "name": "heroTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Haarajoen asukasyhdistys ry",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Outfit",
+                  "fontSize": 52,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "AYkY5",
+                  "name": "heroSub",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Yhteistä hyvää Haarajoelle jo vuodesta 2014. Järjestämme tapahtumia, ylläpidämme kylätaloa ja vaalimme asuinalueemme viihtyisyyttä.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Outfit",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "XD1v7",
+                  "name": "Hero CTAs",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hwKcN",
+                      "name": "Primary CTA",
+                      "fill": "#3D8A5A",
+                      "cornerRadius": 100,
+                      "gap": 8,
+                      "padding": [
+                        14,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "asLsW",
+                          "name": "primaryIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "calendar",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2zoUt",
+                          "name": "primaryText",
+                          "fill": "#FFFFFF",
+                          "content": "Tapahtumat",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oVMli",
+                      "name": "Secondary CTA",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 100,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF44"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        14,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ja0XY",
+                          "name": "secText",
+                          "fill": "#FFFFFF",
+                          "content": "Tutustu alueeseen",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FYFY2",
+          "name": "Info Cards Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "v2iFd",
+              "name": "Section Header",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rqr6t",
+                  "name": "sectionTitle",
+                  "fill": "#3D8A5A",
+                  "content": "Toimintamme",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "8miFF",
+                  "name": "sectionHeadline",
+                  "fill": "#1A1918",
+                  "content": "Yhdessä Haarajoen puolesta",
+                  "fontFamily": "Outfit",
+                  "fontSize": 36,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "OodSI",
+                  "name": "sectionSub",
+                  "fill": "#6D6C6A",
+                  "content": "Asukasyhdistys toimii vapaaehtoisvoimin alueen asukkaiden hyväksi",
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Adulo",
+              "name": "Cards Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wkIuQ",
+                  "name": "Card Events",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191810",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "62dVf",
+                      "name": "Card1 Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "glodimiessi",
+                        "link": "https://unsplash.com/@glodimiessi",
+                        "author": "Glodi Miessi"
+                      },
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1568597190007-c510b27500e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMTEzMDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BsgQY",
+                      "name": "Card1 Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZFIbN",
+                          "name": "Icon Wrap",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#C8F0D8",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "NQk8A",
+                              "name": "card1iconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "calendar-days",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3D8A5A"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "RVDaZ",
+                          "name": "card1title",
+                          "fill": "#1A1918",
+                          "content": "Tapahtumat ja talkoot",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wJVHw",
+                          "name": "card1desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Järjestämme siivoustalkoita, asukasiltoja, retkiä ja yhteisiä tapahtumia ympäri vuoden.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Outfit",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U2yoj",
+                  "name": "Card Werso",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191810",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m8CS6",
+                      "name": "Card2 Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "davotibarna",
+                        "link": "https://unsplash.com/@davotibarna",
+                        "author": "Barnabas Davoti"
+                      },
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1763055696460-c9f8430ba370?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMTEzMTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6TDsO",
+                      "name": "Card2 Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MJlTr",
+                          "name": "Icon Wrap",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#F5E6DC",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "OHWPr",
+                              "name": "card2iconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "house",
+                              "iconFontFamily": "lucide",
+                              "fill": "#D89575"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "D77KW",
+                          "name": "card2title",
+                          "fill": "#1A1918",
+                          "content": "Kylätalomme Werso",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mp8yu",
+                          "name": "card2desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Werso on Haarajoen oma kerhotila, jota voit vuokrata juhliin, kokouksiin ja harrastustoimintaan.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Outfit",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WHotN",
+                  "name": "Card Nature",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191810",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 12
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uDcol",
+                      "name": "Card3 Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "_k8_",
+                        "link": "https://unsplash.com/@_k8_",
+                        "author": "K8"
+                      },
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1685280633099-c7c73965432b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMTEzMTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wm0gn",
+                      "name": "Card3 Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "V0Kqy",
+                          "name": "Icon Wrap",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#E8F0E4",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "ka0Xg",
+                              "name": "card3iconInner",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "tree-pine",
+                              "iconFontFamily": "lucide",
+                              "fill": "#4D9B6A"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "BL1hT",
+                          "name": "card3title",
+                          "fill": "#1A1918",
+                          "content": "Luonto ja ulkoilu",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tEUeF",
+                          "name": "card3desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lemmenlaakso, Haarajoen jokivarsilehto ja kauniit luontopolut odottavat retkeilijää.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Outfit",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hLG9V",
+          "name": "News Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "yoRMY",
+              "name": "News Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "guY48",
+                  "name": "News Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ceJoz",
+                      "name": "newsLabel",
+                      "fill": "#3D8A5A",
+                      "content": "Ajankohtaista",
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jkOTh",
+                      "name": "newsTitle",
+                      "fill": "#1A1918",
+                      "content": "Viimeisimmät uutiset",
+                      "fontFamily": "Outfit",
+                      "fontSize": 32,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EpwdU",
+                  "name": "See All",
+                  "cornerRadius": 100,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E5E4E1"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J0wRM",
+                      "name": "newsAllText",
+                      "fill": "#6D6C6A",
+                      "content": "Kaikki uutiset",
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Utfbx",
+                      "name": "newsAllIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6D6C6A"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9malL",
+              "name": "News Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YNdEP",
+                  "name": "News Item 1",
+                  "width": "fill_container",
+                  "fill": "#FAFAF8",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 6
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vzsu8",
+                      "name": "news1date",
+                      "fill": "#9C9B99",
+                      "content": "15.2.2026",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ucf77",
+                      "name": "news1title",
+                      "fill": "#1A1918",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Kevään ensimmäiset siivoustalkoot 22.3.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3awpy",
+                      "name": "news1desc",
+                      "fill": "#6D6C6A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tule mukaan siistimään asuinaluettamme kevään kunniaksi! Talkoot alkavat klo 10 Werson pihalta. Tarjolla kahvia ja pullaa.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hZG2H",
+                      "name": "Read More",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j8aZP",
+                          "name": "news1linkText",
+                          "fill": "#3D8A5A",
+                          "content": "Lue lisää",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "M2Q5h",
+                          "name": "news1linkIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zOTNQ",
+                  "name": "News Item 2",
+                  "width": "fill_container",
+                  "fill": "#FAFAF8",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 6
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hikXN",
+                      "name": "news2date",
+                      "fill": "#9C9B99",
+                      "content": "8.2.2026",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "57jDt",
+                      "name": "news2title",
+                      "fill": "#1A1918",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Werson kevätkausi alkaa — varaa tilasi nyt",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sXehN",
+                      "name": "news2desc",
+                      "fill": "#6D6C6A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Kylätalon kevätkauden varauskalenteri on nyt auki. Werso sopii erinomaisesti perhejuhliin ja kerhotoimintaan.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P9ZAq",
+                      "name": "Read More",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ht3jv",
+                          "name": "news2linkText",
+                          "fill": "#3D8A5A",
+                          "content": "Lue lisää",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "wF06i",
+                          "name": "news2linkIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LhhF9",
+                  "name": "News Item 3",
+                  "width": "fill_container",
+                  "fill": "#FAFAF8",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 6
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y6bfq",
+                      "name": "news3date",
+                      "fill": "#9C9B99",
+                      "content": "25.1.2026",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HTwmb",
+                      "name": "news3title",
+                      "fill": "#1A1918",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vuosikokous pidetään 15.3. — tervetuloa!",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L6hr8",
+                      "name": "news3desc",
+                      "fill": "#6D6C6A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Yhdistyksen vuosikokous järjestetään Wersossa klo 18. Esityslistalla tilinpäätös, toimintasuunnitelma ja hallituksen valinta.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PyKAB",
+                      "name": "Read More",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ndXMv",
+                          "name": "news3linkText",
+                          "fill": "#3D8A5A",
+                          "content": "Lue lisää",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "teo6M",
+                          "name": "news3linkIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JNYnj",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "#2D5F3F",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "5B2SK",
+              "name": "ctaTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Tule mukaan Haarajoen asukasyhdistykseen!",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 36,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "j1i6x",
+              "name": "ctaSub",
+              "fill": "#FFFFFFCC",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Jäsenmaksu on vain 10 € / talous vuodessa. Tuotolla rahoitetaan harrastustoimintaa, nuorisotyötä sekä tapahtumia ja viestintää.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "qLZUH",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GVFnZ",
+                  "name": "Join Button",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "OAyx5",
+                      "name": "ctaPIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "#2D5F3F"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jPRPb",
+                      "name": "ctaPText",
+                      "fill": "#2D5F3F",
+                      "content": "Liity jäseneksi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e11VI",
+                  "name": "Contact Button",
+                  "fill": "#FFFFFF22",
+                  "cornerRadius": 100,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF44"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "10j7T",
+                      "name": "ctaSText",
+                      "fill": "#FFFFFF",
+                      "content": "Ota yhteyttä",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FjYxW",
+              "name": "Stats Row",
+              "gap": 64,
+              "padding": [
+                32,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MsB6x",
+                  "name": "Stat",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uI0lI",
+                      "name": "stat1num",
+                      "fill": "#FFFFFF",
+                      "content": "10+",
+                      "fontFamily": "Outfit",
+                      "fontSize": 32,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "ONOCY",
+                      "name": "stat1label",
+                      "fill": "#FFFFFF99",
+                      "content": "vuotta toimintaa",
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "06KTd",
+                  "name": "Stat",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NFu0y",
+                      "name": "stat2num",
+                      "fill": "#FFFFFF",
+                      "content": "2 400",
+                      "fontFamily": "Outfit",
+                      "fontSize": 32,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "xVYjx",
+                      "name": "stat2label",
+                      "fill": "#FFFFFF99",
+                      "content": "asukasta alueella",
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Jb1nl",
+                  "name": "Stat",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QJNx4",
+                      "name": "stat3num",
+                      "fill": "#FFFFFF",
+                      "content": "10 €",
+                      "fontFamily": "Outfit",
+                      "fontSize": 32,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "8Fa61",
+                      "name": "stat3label",
+                      "fill": "#FFFFFF99",
+                      "content": "jäsenmaksu / vuosi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HMLdb",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#1A1918",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "NPIHH",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tH3SR",
+                  "name": "Footer Brand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nBBa2",
+                      "name": "Footer Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "YTRvf",
+                          "name": "footerLogoIcon",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "trees",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XWgI2",
+                          "name": "footerLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "Haarajoki",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VvrR4",
+                      "name": "footerTagline",
+                      "fill": "#FFFFFF88",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Haarajoen asukasyhdistys ry toimii vapaaehtoisvoimin asuinalueemme hyväksi Järvenpäässä.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Outfit",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qlqeO",
+                  "name": "Footer Links",
+                  "gap": 80,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rAP5e",
+                      "name": "Col Yhdistys",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pKLeX",
+                          "name": "col1title",
+                          "fill": "#FFFFFF",
+                          "content": "Yhdistys",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rc8vl",
+                          "name": "col1a",
+                          "fill": "#FFFFFF88",
+                          "content": "Ajankohtaista",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tKyHW",
+                          "name": "col1b",
+                          "fill": "#FFFFFF88",
+                          "content": "Hallitus",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "etrzb",
+                          "name": "col1c",
+                          "fill": "#FFFFFF88",
+                          "content": "Jäsenyys",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xsdJ1",
+                          "name": "col1d",
+                          "fill": "#FFFFFF88",
+                          "content": "Säännöt",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "1MLq7",
+                      "name": "Col Palvelut",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JPNfT",
+                          "name": "col2title",
+                          "fill": "#FFFFFF",
+                          "content": "Palvelut",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AAqJN",
+                          "name": "col2a",
+                          "fill": "#FFFFFF88",
+                          "content": "Werso — kylätalon vuokraus",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OJXVP",
+                          "name": "col2b",
+                          "fill": "#FFFFFF88",
+                          "content": "Paikalliset yritykset",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l1hBw",
+                          "name": "col2c",
+                          "fill": "#FFFFFF88",
+                          "content": "Julkiset palvelut",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "p9Xdq",
+                          "name": "col2d",
+                          "fill": "#FFFFFF88",
+                          "content": "Luonto ja ulkoilu",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gWyZY",
+                      "name": "Col Yhteystiedot",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hrQHY",
+                          "name": "col3title",
+                          "fill": "#FFFFFF",
+                          "content": "Yhteystiedot",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dRIee",
+                          "name": "col3a",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "hJ1LL",
+                              "name": "col3aIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "mail",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF66"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Ayc7q",
+                              "name": "col3aText",
+                              "fill": "#FFFFFF88",
+                              "content": "asukasyhdistys@haarajoki.fi",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ssnIY",
+                          "name": "col3b",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "PG3dg",
+                              "name": "col3bIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF66"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oUKUn",
+                              "name": "col3bText",
+                              "fill": "#FFFFFF88",
+                              "content": "Haarajoki, Järvenpää",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pbKnP",
+                          "name": "col3c",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "3LHNX",
+                              "name": "col3cIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "globe",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF66"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CaZIj",
+                              "name": "col3cText",
+                              "fill": "#FFFFFF88",
+                              "content": "haarajoki.fi",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Fs5QY",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#FFFFFF15"
+            },
+            {
+              "type": "frame",
+              "id": "pxSLO",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vicuE",
+                  "name": "copyright",
+                  "fill": "#FFFFFF55",
+                  "content": "© 2026 Haarajoen asukasyhdistys ry. Kaikki oikeudet pidätetään.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "WPXK1",
+                  "name": "footerMeta",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EkuiV",
+                      "name": "meta1",
+                      "fill": "#FFFFFF55",
+                      "content": "Tietosuoja",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KDvvN",
+                      "name": "meta2",
+                      "fill": "#FFFFFF55",
+                      "content": "Evästeet",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UXekY",
+      "x": 991.7602308499477,
+      "y": 301.5,
+      "name": "Mobile — Haarajoki Frontpage",
+      "width": 390,
+      "fill": "#F5F4F1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZMgNl",
+          "name": "Mobile Header",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "padding": [
+            16,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IErzt",
+              "name": "Logo Area",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "OwnJU",
+                  "name": "mLogoIcon",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "trees",
+                  "iconFontFamily": "lucide",
+                  "fill": "#3D8A5A"
+                },
+                {
+                  "type": "text",
+                  "id": "xgvWv",
+                  "name": "mLogoText",
+                  "fill": "#1A1918",
+                  "content": "Haarajoki",
+                  "fontFamily": "Outfit",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "6ujnm",
+              "name": "mMenuBtn",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1918"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eDPjJ",
+          "name": "Mobile Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 480,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xfllc",
+              "x": 0,
+              "y": 0,
+              "name": "Hero BG",
+              "metadata": {
+                "type": "unsplash",
+                "username": "mitchel3uo",
+                "link": "https://unsplash.com/@mitchel3uo",
+                "author": "Mitchell Luo"
+              },
+              "width": 390,
+              "height": 480,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1577373941452-d4f575e66ef6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzIxMTE0MzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "A6QmW",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Overlay",
+              "width": 390,
+              "height": 480,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1A1918DD",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1A191855",
+                    "position": 0.7
+                  },
+                  {
+                    "color": "#1A191822",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "fv30j",
+              "x": 20,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 350,
+              "height": 480,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                80,
+                0,
+                40,
+                0
+              ],
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qaygW",
+                  "name": "Badge",
+                  "fill": "#3D8A5A44",
+                  "cornerRadius": 100,
+                  "gap": 6,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "OUvm9",
+                      "name": "mBadgeIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "map-pin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#C8F0D8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cEODR",
+                      "name": "mBadgeText",
+                      "fill": "#C8F0D8",
+                      "content": "Järvenpää, Suomi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VBtkc",
+                  "name": "mHeroTitle",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 340,
+                  "content": "Haarajoen asukasyhdistys ry",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Outfit",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "qzRX4",
+                  "name": "mHeroSub",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": 320,
+                  "content": "Yhteistä hyvää Haarajoelle jo vuodesta 2014.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "idBBz",
+                  "name": "CTA Button",
+                  "fill": "#3D8A5A",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "bycde",
+                      "name": "mHeroCtaIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "calendar",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6ObNr",
+                      "name": "mHeroCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Tapahtumat",
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7J6Qk",
+          "name": "Mobile Info Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "rirLv",
+              "name": "Section Header",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zegWn",
+                  "name": "mSectionLabel",
+                  "fill": "#3D8A5A",
+                  "content": "Toimintamme",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "OgPJE",
+                  "name": "mSectionTitle",
+                  "fill": "#1A1918",
+                  "textGrowth": "fixed-width",
+                  "width": 340,
+                  "content": "Yhdessä Haarajoen puolesta",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "APD8B",
+              "name": "Mobile Cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wH5aF",
+                  "name": "Card Events",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 8
+                  },
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "b28zP",
+                      "name": "Icon Wrap",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#C8F0D8",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tUrMX",
+                          "name": "mCard1iconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "calendar-days",
+                          "iconFontFamily": "lucide",
+                          "fill": "#3D8A5A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4L9hJ",
+                      "name": "Card Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kdIOJ",
+                          "name": "mCard1title",
+                          "fill": "#1A1918",
+                          "content": "Tapahtumat ja talkoot",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "77WYb",
+                          "name": "mCard1desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Siivoustalkoot, asukasillat, retket ja yhteisöllisyys",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "RyVbY",
+                      "name": "mCard1arrow",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9C9B99"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KBG3s",
+                  "name": "Card Werso",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 8
+                  },
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6TADd",
+                      "name": "Icon Wrap",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F5E6DC",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Ps3GD",
+                          "name": "mCard2iconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "house",
+                          "iconFontFamily": "lucide",
+                          "fill": "#D89575"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yV8s5",
+                      "name": "Card Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RX7GL",
+                          "name": "mCard2title",
+                          "fill": "#1A1918",
+                          "content": "Kylätalomme Werso",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Anbl6",
+                          "name": "mCard2desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Vuokraa kerhotila juhliin ja kokouksiin",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "EblZl",
+                      "name": "mCard2arrow",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9C9B99"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Do1Vq",
+                  "name": "Card Nature",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A191808",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 8
+                  },
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J74cr",
+                      "name": "Icon Wrap",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#E8F0E4",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "NnuVw",
+                          "name": "mCard3iconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "tree-pine",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4D9B6A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Zk6pS",
+                      "name": "Card Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n8wNl",
+                          "name": "mCard3title",
+                          "fill": "#1A1918",
+                          "content": "Luonto ja ulkoilu",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Yygxr",
+                          "name": "mCard3desc",
+                          "fill": "#6D6C6A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lemmenlaakso, jokivarsilehto ja luontopolut",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Cff5B",
+                      "name": "mCard3arrow",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9C9B99"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UeXDU",
+          "name": "Mobile News",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "C8NPS",
+              "name": "News Header",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TCxZX",
+                  "name": "mNewsLabel",
+                  "fill": "#3D8A5A",
+                  "content": "Ajankohtaista",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "322Jh",
+                  "name": "mNewsTitle",
+                  "fill": "#1A1918",
+                  "content": "Viimeisimmät uutiset",
+                  "fontFamily": "Outfit",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.3
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hIL5K",
+              "name": "News Item 1",
+              "width": "fill_container",
+              "fill": "#FAFAF8",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ubw1j",
+                  "name": "mNews1date",
+                  "fill": "#9C9B99",
+                  "content": "15.2.2026",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "79LLL",
+                  "name": "mNews1title",
+                  "fill": "#1A1918",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Kevään ensimmäiset siivoustalkoot 22.3.",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "UhMWD",
+                  "name": "mNews1desc",
+                  "fill": "#6D6C6A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tule mukaan siistimään asuinaluettamme! Talkoot alkavat klo 10 Werson pihalta.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "JObub",
+                  "name": "mNews1link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lRj7Y",
+                      "name": "mNews1linkText",
+                      "fill": "#3D8A5A",
+                      "content": "Lue lisää",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "d1mg4",
+                      "name": "mNews1linkIcon",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3D8A5A"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CMPPL",
+              "name": "News Item 2",
+              "width": "fill_container",
+              "fill": "#FAFAF8",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vpu6S",
+                  "name": "mNews2date",
+                  "fill": "#9C9B99",
+                  "content": "8.2.2026",
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "2Ypp7",
+                  "name": "mNews2title",
+                  "fill": "#1A1918",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Werson kevätkausi alkaa — varaa tilasi nyt",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "EQnMp",
+                  "name": "mNews2desc",
+                  "fill": "#6D6C6A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Kylätalon kevätkauden varauskalenteri on nyt auki.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8Cgak",
+                  "name": "mNews2link",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U0uOS",
+                      "name": "mNews2linkText",
+                      "fill": "#3D8A5A",
+                      "content": "Lue lisää",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "N7oU9",
+                      "name": "mNews2linkIcon",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3D8A5A"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pu1e8",
+              "name": "See All News",
+              "width": "fill_container",
+              "cornerRadius": 100,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#E5E4E1"
+              },
+              "gap": 6,
+              "padding": [
+                12,
+                0
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T1HDG",
+                  "name": "mAllNewsText",
+                  "fill": "#6D6C6A",
+                  "content": "Kaikki uutiset",
+                  "fontFamily": "Outfit",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "4FCGh",
+                  "name": "mAllNewsIcon",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6D6C6A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aGthF",
+          "name": "Mobile CTA",
+          "width": "fill_container",
+          "fill": "#2D5F3F",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "9oVF8",
+              "name": "mCtaTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 320,
+              "content": "Tule mukaan yhdistykseen!",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 24,
+              "fontWeight": "700",
+              "letterSpacing": -0.3
+            },
+            {
+              "type": "text",
+              "id": "xMcTu",
+              "name": "mCtaSub",
+              "fill": "#FFFFFFCC",
+              "textGrowth": "fixed-width",
+              "width": 320,
+              "content": "Jäsenmaksu vain 10 € / talous / vuosi. Tuella rahoitetaan tapahtumia ja nuorisotyötä.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "PAyDt",
+              "name": "Join Button",
+              "fill": "#FFFFFF",
+              "cornerRadius": 100,
+              "gap": 8,
+              "padding": [
+                14,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "X8oRY",
+                  "name": "mCtaBtnIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "#2D5F3F"
+                },
+                {
+                  "type": "text",
+                  "id": "MzsVc",
+                  "name": "mCtaBtnText",
+                  "fill": "#2D5F3F",
+                  "content": "Liity jäseneksi",
+                  "fontFamily": "Outfit",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "elUNV",
+              "name": "Stats",
+              "width": "fill_container",
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_around",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "euIwp",
+                  "name": "mStat1",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kw3NX",
+                      "name": "mStat1num",
+                      "fill": "#FFFFFF",
+                      "content": "10+",
+                      "fontFamily": "Outfit",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "AZKwJ",
+                      "name": "mStat1label",
+                      "fill": "#FFFFFF88",
+                      "content": "vuotta",
+                      "fontFamily": "Outfit",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z72ue",
+                  "name": "mStat2",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w7C1j",
+                      "name": "mStat2num",
+                      "fill": "#FFFFFF",
+                      "content": "2 400",
+                      "fontFamily": "Outfit",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "AVLlT",
+                      "name": "mStat2label",
+                      "fill": "#FFFFFF88",
+                      "content": "asukasta",
+                      "fontFamily": "Outfit",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eAuzo",
+                  "name": "mStat3",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4Oljx",
+                      "name": "mStat3num",
+                      "fill": "#FFFFFF",
+                      "content": "10 €",
+                      "fontFamily": "Outfit",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "tKU6o",
+                      "name": "mStat3label",
+                      "fill": "#FFFFFF88",
+                      "content": "/ vuosi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ckOnN",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "fill": "#1A1918",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            32,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Mu28h",
+              "name": "Footer Brand",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ABRJe",
+                  "name": "mFooterLogo",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Lw4b7",
+                      "name": "mFooterIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "trees",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3D8A5A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eamed",
+                      "name": "mFooterName",
+                      "fill": "#FFFFFF",
+                      "content": "Haarajoki",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "NFtTL",
+                  "name": "mFooterTag",
+                  "fill": "#FFFFFF88",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Haarajoen asukasyhdistys ry toimii vapaaehtoisvoimin asuinalueemme hyväksi.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Outfit",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OsdXO",
+              "name": "Footer Links",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xN8EZ",
+                  "name": "mCol1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XNnha",
+                      "name": "mCol1t",
+                      "fill": "#FFFFFF",
+                      "content": "Yhdistys",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jNghn",
+                      "name": "mCol1a",
+                      "fill": "#FFFFFF77",
+                      "content": "Ajankohtaista",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MjRpQ",
+                      "name": "mCol1b",
+                      "fill": "#FFFFFF77",
+                      "content": "Hallitus",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0ApCe",
+                      "name": "mCol1c",
+                      "fill": "#FFFFFF77",
+                      "content": "Jäsenyys",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8jvy9",
+                  "name": "mCol2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JGZGc",
+                      "name": "mCol2t",
+                      "fill": "#FFFFFF",
+                      "content": "Palvelut",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ulw6u",
+                      "name": "mCol2a",
+                      "fill": "#FFFFFF77",
+                      "content": "Werso",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2hByf",
+                      "name": "mCol2b",
+                      "fill": "#FFFFFF77",
+                      "content": "Yritykset",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DBLtu",
+                      "name": "mCol2c",
+                      "fill": "#FFFFFF77",
+                      "content": "Luonto",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mcGSx",
+              "name": "Contact",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AcoZL",
+                  "name": "mContactRow1",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "flb7W",
+                      "name": "mContactIcon1",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "mail",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF55"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cvFPH",
+                      "name": "mContactText1",
+                      "fill": "#FFFFFF77",
+                      "content": "asukasyhdistys@haarajoki.fi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Dwehs",
+                  "name": "mContactRow2",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Y7CgR",
+                      "name": "mContactIcon2",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "globe",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF55"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EgjT7",
+                      "name": "mContactText2",
+                      "fill": "#FFFFFF77",
+                      "content": "haarajoki.fi",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZyYEn",
+              "name": "Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#FFFFFF15"
+            },
+            {
+              "type": "text",
+              "id": "RGUfN",
+              "name": "mCopyright",
+              "fill": "#FFFFFF44",
+              "content": "© 2026 Haarajoen asukasyhdistys ry",
+              "fontFamily": "Outfit",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
