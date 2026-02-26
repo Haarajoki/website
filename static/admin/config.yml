@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: haarajoki-ry/haarajoki-ry.github.io  # Update this to your actual repo
+  repo: haarajoki/website.github.io  # Update this to your actual repo
   branch: main
 
 media_folder: static/images/uploads
@@ -36,13 +36,6 @@ collections:
           - { label: Alaotsikko, name: subtitle, widget: string, required: false }
           - { label: Sisältö, name: body, widget: markdown }
 
-      - label: Yhteystiedot
-        name: yhteystiedot
-        file: content/yhteystiedot.md
-        fields:
-          - { label: Otsikko, name: title, widget: string }
-          - { label: Sisältö, name: body, widget: markdown }
-
       - label: Yhdistys
         name: yhdistys
         file: content/yhdistys.md
@@ -50,9 +43,44 @@ collections:
           - { label: Otsikko, name: title, widget: string }
           - { label: Sisältö, name: body, widget: markdown }
 
-      - label: Säännöt
-        name: saannot
-        file: content/saannot.md
+      - label: Werso – Kylätalo
+        name: werso
+        file: content/werso.md
+        fields:
+          - { label: Otsikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: markdown }
+
+      - label: Yhteystiedot
+        name: yhteystiedot
+        file: content/yhteystiedot.md
+        fields:
+          - { label: Otsikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: markdown }
+
+      - label: Lemmenlaakso ja mylly
+        name: lemmenlaakso
+        file: content/lemmenlaakso.md
+        fields:
+          - { label: Otsikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: markdown }
+
+      - label: Julkiset palvelut
+        name: palvelut
+        file: content/palvelut.md
+        fields:
+          - { label: Otsikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: markdown }
+
+      - label: Haarajoen yrityksiä
+        name: yritykset
+        file: content/yritykset.md
+        fields:
+          - { label: Otsikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: markdown }
+
+      - label: Muut yhdistykset
+        name: muut-yhdistykset
+        file: content/muut-yhdistykset.md
         fields:
           - { label: Otsikko, name: title, widget: string }
           - { label: Sisältö, name: body, widget: markdown }

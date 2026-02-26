@@ -525,6 +525,33 @@ main {
   margin: 2.5rem 0;
 }
 
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.content th,
+.content td {
+  text-align: left;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.content th {
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-warm);
+}
+
+.content tr:hover td {
+  background: rgba(245, 240, 230, 0.5);
+}
+
 /* News list page */
 .list-header {
   padding: 3rem 0 2.5rem;

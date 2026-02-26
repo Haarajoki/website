@@ -48,11 +48,19 @@
         <p class="footer-address">{{ site.Params.address }}</p>
       </div>
       <div class="footer-nav">
-        <p class="footer-nav-title">Sivut</p>
+        <p class="footer-nav-title">Yhdistys</p>
         {{ range site.Menus.main }}
           <a href="{{ .URL | absURL }}">{{ .Name }}</a>
         {{ end }}
       </div>
+      {{ if site.Menus.footer }}
+      <div class="footer-nav">
+        <p class="footer-nav-title">Haarajoki</p>
+        {{ range site.Menus.footer }}
+          <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
     </div>
     <div class="footer-bottom">
       <p>&copy; {{ now.Year }} {{ site.Title }}</p>

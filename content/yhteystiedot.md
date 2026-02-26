@@ -1,18 +1,20 @@
 ---
 title: Yhteystiedot
-menu:
-  main:
-    weight: 30
 ---
 
 ## Haarajoen asukasyhdistys ry
 
-**Sähköposti:** yhdistys@haarajoki.fi
+**Sähköposti:** asukasyhdistys@haarajoki.fi
 
-**Postiosoite:**
-Haarajoen asukasyhdistys ry
-00000 Haarajoki
+**Postilaatikko:** K-marketin yhteydessä
 
-## Hallitus
+## Hallituksen yhteystiedot
 
-Hallituksen jäsenet valitaan vuosikokouksessa.
+**Puheenjohtaja:** Sanna-Kaisa Sihvola
+**Sihteeri:** Selina Henell-Koskela
+
+Yhteydenotot sähköpostilla: asukasyhdistys@haarajoki.fi
+
+## Werso-varaukset
+
+Haarajoen kylätilan Werson varaukset sähköpostilla: asukasyhdistys@haarajoki.fi
