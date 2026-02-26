@@ -4,32 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
-  <meta name="theme-color" content="#1b3a27">
+  <meta name="theme-color" content="#3D8A5A">
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
       <a href="{{ "/" | absURL }}" class="site-logo">
-        <svg class="logo-mark" viewBox="0 0 26 34" fill="none" aria-hidden="true">
-          <path d="M13 33 L13 17 C13 11 5 5 2 1" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
-          <path d="M13 17 C13 11 21 5 24 1" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M16 14v.2A3 3 0 0 1 14.9 20H11a3 3 0 0 1-1-5.8V14a3 3 0 0 1 6 0Z"/>
         </svg>
-        <span class="logo-text">{{ site.Title }}</span>
+        <span class="logo-text">{{ site.Params.shortTitle | default "Haarajoki" }}</span>
       </a>
       <nav class="site-nav" id="site-nav">
         {{ range site.Menus.main }}
           <a href="{{ .URL | absURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
         {{ end }}
       </nav>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Avaa valikko">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="header-actions">
+        <a href="{{ "yhdistys/" | absURL }}#j%C3%A4senyys" class="btn-join">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+          Liity jäseneksi
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Avaa valikko">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -38,53 +43,71 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-body">
-      <div class="footer-brand">
-        <svg class="logo-mark" viewBox="0 0 26 34" fill="none" aria-hidden="true">
-          <path d="M13 33 L13 17 C13 11 5 5 2 1" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
-          <path d="M13 17 C13 11 21 5 24 1" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/>
-        </svg>
-        <p class="footer-title">{{ site.Title }}</p>
-        <p class="footer-address">{{ site.Params.address }}</p>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="{{ "/" | absURL }}" class="footer-logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M16 14v.2A3 3 0 0 1 14.9 20H11a3 3 0 0 1-1-5.8V14a3 3 0 0 1 6 0Z"/>
+            </svg>
+            <span>Haarajoki</span>
+          </a>
+          <p class="footer-tagline">Haarajoen asukasyhdistys ry toimii vapaaehtoisvoimin asuinalueemme hyväksi Järvenpäässä.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <p class="footer-col-title">Yhdistys</p>
+            {{ range site.Menus.main }}
+              <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">Palvelut</p>
+            <a href="{{ "werso/" | absURL }}">Werso &mdash; kylätalon vuokraus</a>
+            <a href="{{ "yritykset/" | absURL }}">Paikalliset yritykset</a>
+            <a href="{{ "palvelut/" | absURL }}">Julkiset palvelut</a>
+            <a href="{{ "lemmenlaakso/" | absURL }}">Luonto ja ulkoilu</a>
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">Yhteystiedot</p>
+            <a href="mailto:{{ site.Params.email }}" class="footer-contact-row">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              {{ site.Params.email }}
+            </a>
+            <span class="footer-contact-row">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              {{ site.Params.address }}
+            </span>
+            <a href="https://haarajoki.fi" class="footer-contact-row">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              haarajoki.fi
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="footer-nav">
-        <p class="footer-nav-title">Yhdistys</p>
-        {{ range site.Menus.main }}
-          <a href="{{ .URL | absURL }}">{{ .Name }}</a>
-        {{ end }}
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; {{ now.Year }} {{ site.Title }}. Kaikki oikeudet pidätetään.</p>
+        <div class="footer-meta">
+          <a href="{{ "yhdistys/" | absURL }}#tietosuoja">Tietosuoja</a>
+        </div>
       </div>
-      {{ if site.Menus.footer }}
-      <div class="footer-nav">
-        <p class="footer-nav-title">Haarajoki</p>
-        {{ range site.Menus.footer }}
-          <a href="{{ .URL | absURL }}">{{ .Name }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; {{ now.Year }} {{ site.Title }}</p>
     </div>
   </footer>
 
   <script>
-    // Mobile nav
     const toggle = document.getElementById('nav-toggle');
     const nav = document.getElementById('site-nav');
     toggle.addEventListener('click', function() {
       toggle.classList.toggle('active');
       nav.classList.toggle('open');
     });
-
-    // Close mobile nav when clicking a link
     nav.querySelectorAll('.nav-link').forEach(function(link) {
       link.addEventListener('click', function() {
         toggle.classList.remove('active');
         nav.classList.remove('open');
       });
     });
-
-    // Scroll reveal
     if ('IntersectionObserver' in window) {
       var observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {

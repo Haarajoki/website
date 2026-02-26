@@ -8,6 +8,7 @@ theme = 'haarajoki'
   description = 'Haarajoen asukasyhdistys ry – yhdessä Haarajoen parhaaksi. Ajankohtaista tietoa, tapahtumia ja palveluja Haarajoen asukkaille.'
   address = 'Haarajoki, Järvenpää'
   email = 'asukasyhdistys@haarajoki.fi'
+  shortTitle = 'Haarajoki'
 
 [markup]
   [markup.goldmark]
@@ -20,19 +21,29 @@ theme = 'haarajoki'
   weight = 10
 
 [[menus.main]]
-  name = 'Werso'
-  pageRef = '/werso'
-  weight = 15
-
-[[menus.main]]
   name = 'Yhdistys'
   pageRef = '/yhdistys'
   weight = 20
 
 [[menus.main]]
+  name = 'Werso'
+  pageRef = '/werso'
+  weight = 25
+
+[[menus.main]]
+  name = 'Luonto'
+  pageRef = '/lemmenlaakso'
+  weight = 30
+
+[[menus.main]]
+  name = 'Palvelut'
+  pageRef = '/palvelut'
+  weight = 40
+
+[[menus.main]]
   name = 'Yhteystiedot'
   pageRef = '/yhteystiedot'
-  weight = 30
+  weight = 50
 
 [outputs]
   home = ['HTML']

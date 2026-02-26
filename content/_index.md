@@ -1,6 +1,5 @@
 ---
-title: Tervetuloa Haarajoen asukasyhdistyksen sivuille
-subtitle: Yhdessä Haarajoen parhaaksi
+title: Haarajoen asukasyhdistys ry
 ---
 
-Haarajoen asukasyhdistys ry toimii Haarajoen kaupunginosan asukkaiden yhdyssiteenä ja edunvalvojana Järvenpäässä. Yhdistys järjestää tapahtumia, siivoustalkoita, asukasiltoja ja retkiä sekä toimii yhteistyössä alueen yritysten, koulun ja muiden yhdistysten kanssa. Tervetuloa mukaan toimintaan!
+Yhteistä hyvää Haarajoelle jo vuodesta 2002. Järjestämme tapahtumia, ylläpidämme kylätaloa ja vaalimme asuinalueemme viihtyisyyttä.

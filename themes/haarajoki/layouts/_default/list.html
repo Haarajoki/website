@@ -6,12 +6,16 @@
 
   {{ .Content }}
 
-  <div class="news-grid" style="padding-bottom: 4rem;">
+  <div class="news-grid news-grid--list" style="padding-bottom: 4rem;">
     {{ range .Pages }}
     <a href="{{ .RelPermalink }}" class="news-card reveal">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006" }}</time>
       <h3>{{ .Title }}</h3>
       {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+      <span class="read-more">
+        Lue lisää
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </span>
     </a>
     {{ end }}
   </div>
