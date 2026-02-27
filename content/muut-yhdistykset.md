@@ -12,10 +12,6 @@ Haarajoen alueella toimii useita yhdistyksiä ja harrastusryhmiä.
 - **MLL:n perhekahvila** toimii Haarajoen Wersolla. Lisätietoja Järvenpään MLL:n sivuilta.
 - **Haarajoen Marttayhdistys** – [martat.fi](http://www.martat.fi)
 
-## Partio
-
-- **Haarajoen Törmän tähystäjät** – paikallinen partiolippukunta
-
 ## Kulttuuri
 
 - **Haarajoen kuoro** – Järvenpään seurakunnan musiikkitoiminta

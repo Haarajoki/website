@@ -39,4 +39,5 @@ Jokaisesta vuokrauksesta tehdään sopimus. Avain luovutetaan ja palautetaan sov
 
 ## Varauskalenteri
 
-Werson varauskalenteri löytyy toistaiseksi osoitteesta [haarajoki.fi](https://www.haarajoki.fi/haarajoen-kylaetalo-werso/kylatalo).
+Werson varauskalenteri löytyy toistaiseksi osoitteesta [haarajoki.fi](https://calendar.google.com/calendar/u/0/embed?color=%2328754E&color=%2329527A&color=%23875509&src=e_2_fi%23weeknum@group.v.calendar.google.com&src=fi.finnish%23holiday@group.v.calendar.google.com&src=haarajoki.fi_oam2m3nskh3b3gjhige8pv57ps@group.calendar.google.com)
+

@@ -16,10 +16,6 @@ Haarajoen juna-asema palvelee Z-junan Helsinki–Lahti-oikoradalla. Asemalla on 
 - **Paikallisliikenne:** Linja 23 yhdistää Järvenpään keskustaan (Uudenmaan joukkoliikenne)
 - **Kaukoliikenne:** Matkahuollon vuorot kulkevat alueen kautta
 
-### Taksi
-
-Järvenpään taksit palvelevat asemalla: 09 1066 4480
-
 ## Lasten ja nuorten palvelut
 
 ### Koulu
