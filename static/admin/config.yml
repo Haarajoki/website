@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: haarajoki/website.github.io  # Update this to your actual repo
+  repo: Haarajoki/website
   branch: main
 
 media_folder: static/images/uploads
