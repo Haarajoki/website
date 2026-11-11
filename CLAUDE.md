@@ -39,8 +39,8 @@ Hugo version: 0.152.2 extended. No npm/node dependencies.
 
 **CMS** (`static/admin/`):
 
-- Decap CMS v3 loaded from CDN. Config in `static/admin/config.yml`
-- GitHub backend (OAuth). Repo: `Haarajoki/website`
+- Sveltia CMS (Decap-compatible) loaded from CDN. Config in `static/admin/config.yml`. Editors sign in with a GitHub personal access token (no OAuth server; must stay zero-cost)
+- GitHub backend. Repo: `Haarajoki/website`
 - Two collections: "Ajankohtaista" (folder-based, create new) and "Sivut" (file-based, 8 named pages)
 - Media uploads go to `static/images/uploads/`
 

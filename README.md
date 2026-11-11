@@ -1,6 +1,6 @@
 # Haarajoen asukasyhdistys ry – verkkosivut
 
-Haarajoen asukasyhdistyksen staattinen verkkosivusto. Rakennettu [Hugo](https://gohugo.io/)-sivugeneraattorilla, sisällönhallinta [Decap CMS](https://decapcms.org/):llä ja julkaisu [GitHub Pages](https://pages.github.com/) -palvelussa.
+Haarajoen asukasyhdistyksen staattinen verkkosivusto. Rakennettu [Hugo](https://gohugo.io/)-sivugeneraattorilla, sisällönhallinta [Sveltia CMS](https://github.com/sveltia/sveltia-cms):llä ja julkaisu [GitHub Pages](https://pages.github.com/) -palvelussa.
 
 **Tuotantosivusto:** https://haarajoki.fi
 
@@ -8,10 +8,10 @@ Haarajoen asukasyhdistyksen staattinen verkkosivusto. Rakennettu [Hugo](https://
 
 Sivusto on täysin staattinen – se koostuu pelkästä HTML:stä, CSS:stä ja pienestä määrästä JavaScriptiä. Taustajärjestelmää (backend) ei ole.
 
-Sisällöntuottajat muokkaavat sivustoa Decap CMS -käyttöliittymässä osoitteessa `haarajoki.fi/admin`. CMS tallentaa muutokset Markdown-tiedostoina suoraan tähän Git-repositorioon. Jokainen tallennus luo automaattisesti Git-commitin, joka käynnistää GitHub Actions -työnkulun: Hugo kääntää Markdown-tiedostot staattiseksi HTML:ksi ja julkaisee sivuston GitHub Pagesiin.
+Sisällöntuottajat muokkaavat sivustoa Sveltia CMS -käyttöliittymässä osoitteessa `haarajoki.fi/admin`. CMS tallentaa muutokset Markdown-tiedostoina suoraan tähän Git-repositorioon. Jokainen tallennus luo automaattisesti Git-commitin, joka käynnistää GitHub Actions -työnkulun: Hugo kääntää Markdown-tiedostot staattiseksi HTML:ksi ja julkaisee sivuston GitHub Pagesiin.
 
 ```
-Sisällönmuokkaus (Decap CMS)
+Sisällönmuokkaus (Sveltia CMS)
         ↓
 Git commit → GitHub
         ↓
@@ -60,7 +60,7 @@ hugo --minify     # Tuotantokäännös (minifoitu)
 │   ├── layouts/                Hugo-templateit
 │   └── static/css/style.css    Tyylitiedosto
 ├── static/
-│   ├── admin/                  Decap CMS -konfiguraatio
+│   ├── admin/                  Sveltia CMS -konfiguraatio
 │   └── favicon.svg             Favicon
 ├── .github/workflows/
 │   └── deploy.yml              GitHub Actions -julkaisutyönkulku
@@ -69,7 +69,33 @@ hugo --minify     # Tuotantokäännös (minifoitu)
 
 ## Sisällönhallinta (CMS)
 
-Decap CMS on käytettävissä osoitteessa `haarajoki.fi/admin`. Kirjautuminen tapahtuu GitHub-tunnuksilla.
+Sisällönhallinta on käytettävissä osoitteessa https://haarajoki.fi/admin. Käytössä on [Sveltia CMS](https://github.com/sveltia/sveltia-cms), joka käyttää samaa `config.yml`-tiedostoa kuin Decap CMS. Kirjautuminen tehdään GitHubin henkilökohtaisella pääsytunnisteella (personal access token), joten erillistä kirjautumispalvelinta ei tarvita ja ratkaisu on maksuton.
+
+### Kirjautuminen ensimmäistä kertaa
+
+Tarvitset GitHub-tunnuksen, jolla on kirjoitusoikeus repositorioon `Haarajoki/website`. Pyydä oikeus yhdistyksen GitHub-ylläpitäjältä.
+
+1. Kirjaudu GitHubiin ja avaa **Settings → Developer settings → Personal access tokens → Fine-grained tokens** (suora linkki: https://github.com/settings/personal-access-tokens/new).
+2. Valitse **Generate new token** ja täytä:
+   - **Token name:** esim. `Haarajoki CMS`
+   - **Expiration:** pisin sallittu aika (esim. 1 vuosi)
+   - **Resource owner:** `Haarajoki`
+   - **Repository access:** *Only select repositories* → `Haarajoki/website`
+   - **Permissions → Repository permissions → Contents:** *Read and write*
+3. Valitse **Generate token** ja kopioi tunniste (alkaa `github_pat_`). GitHub näyttää sen vain kerran.
+4. Avaa https://haarajoki.fi/admin, valitse **Sign In with Token** ja liitä tunniste.
+
+Selain muistaa kirjautumisen, joten tunnistetta ei tarvitse syöttää joka kerta. Kun tunniste vanhenee, luo uusi samalla tavalla.
+
+**Tietoturva:** Pidä tunniste salassa kuten salasana. Älä kirjaudu yhteiskäyttöisellä tietokoneella. Jos tunniste pääsee vääriin käsiin, poista se GitHubissa kohdasta *Fine-grained tokens*.
+
+### Käyttöoikeuksien hallinta (ylläpitäjille)
+
+Tunnisteella pääsee tekemään vain sen, mihin tunnisteen luoneella GitHub-käyttäjällä on oikeus. Kuka tahansa voi avata `/admin`-sivun, mutta muutoksia voi tallentaa vain käyttäjä, jolla on kirjoitusoikeus repositorioon.
+
+- **Uusi sisällöntuottaja:** lisää käyttäjä GitHub-organisaatioon `Haarajoki` ja anna hänelle *Write*-oikeus repositorioon `Haarajoki/website`.
+- **Oikeuden poisto:** poista käyttäjä repositoriosta tai organisaatiosta. Hänen tunnisteensa lakkaa toimimasta heti.
+- Organisaation asetuksissa (*Settings → Personal access tokens*) voi vaatia, että ylläpitäjä hyväksyy jokaisen uuden tunnisteen ennen käyttöä.
 
 CMS:stä voi muokata:
 
